@@ -8,12 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <span className="text-xl font-bold text-primary-foreground">K</span>
-              </div>
-              <span className="text-xl font-bold">KEMET</span>
-            </div>
+            <img src="/logo.png" alt="KEMET - Egypt | USA" className="h-16" />
             <p className="text-sm text-muted-foreground">
               Your trusted gateway to Egyptian manufacturing excellence
             </p>
