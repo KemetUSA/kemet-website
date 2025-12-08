@@ -340,9 +340,11 @@ export default function Partnerships() {
                 compliant, reliable, and cost-effective.
               </p>
               <Link href="/contact">
-                <Button size="lg" variant="secondary">
-                  Get Started Today
-                </Button>
+                <a>
+                  <Button size="lg" variant="secondary">
+                    Get Started Today
+                  </Button>
+                </a>
               </Link>
             </CardContent>
           </Card>

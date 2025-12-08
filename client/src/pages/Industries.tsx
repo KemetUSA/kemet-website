@@ -251,9 +251,11 @@ export default function Industries() {
                 want at prices that improve your margins.
               </p>
               <Link href="/contact">
-                <Button size="lg" variant="secondary">
-                  Request Product Information
-                </Button>
+                <a>
+                  <Button size="lg" variant="secondary">
+                    Request Product Information
+                  </Button>
+                </a>
               </Link>
             </CardContent>
           </Card>

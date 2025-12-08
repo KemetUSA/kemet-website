@@ -109,10 +109,8 @@ export default function Home() {
                   We act as your Vendor of Record, managing the entire supply
                   chain from Egyptian factories to your distribution centers.
                 </p>
-                <Link href="/services#direct-supplier">
-                  <a className="inline-flex items-center text-sm font-medium text-primary hover:underline">
-                    Learn more <ArrowRight className="ml-1 h-4 w-4" />
-                  </a>
+                <Link href="/services#direct-supplier" className="inline-flex items-center text-sm font-medium text-primary hover:underline">
+                  Learn more <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </CardContent>
             </Card>
@@ -127,10 +125,8 @@ export default function Home() {
                   Connect directly with our network of pre-vetted, certified
                   Egyptian manufacturers for specialized products.
                 </p>
-                <Link href="/services#brokerage">
-                  <a className="inline-flex items-center text-sm font-medium text-primary hover:underline">
-                    Learn more <ArrowRight className="ml-1 h-4 w-4" />
-                  </a>
+                <Link href="/services#brokerage" className="inline-flex items-center text-sm font-medium text-primary hover:underline">
+                  Learn more <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </CardContent>
             </Card>
@@ -145,10 +141,8 @@ export default function Home() {
                   Expert guidance on Egyptian sourcing, QIZ compliance, quality
                   assurance, and supply chain optimization.
                 </p>
-                <Link href="/services#consulting">
-                  <a className="inline-flex items-center text-sm font-medium text-primary hover:underline">
-                    Learn more <ArrowRight className="ml-1 h-4 w-4" />
-                  </a>
+                <Link href="/services#consulting" className="inline-flex items-center text-sm font-medium text-primary hover:underline">
+                  Learn more <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </CardContent>
             </Card>

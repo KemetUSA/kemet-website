@@ -20,25 +20,23 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex h-16 items-center justify-between">
-        <Link href="/">
-          <a className="flex items-center">
-            <img src="/logo.png" alt="KEMET - Egypt | USA" className="h-14" />
-          </a>
+        <Link href="/" className="flex items-center">
+          <img src="/logo.png" alt="KEMET - Egypt | USA" className="h-14" />
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex md:items-center md:space-x-6">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href}>
-              <a
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.href)
-                    ? "text-primary"
-                    : "text-muted-foreground"
-                }`}
-              >
-                {item.name}
-              </a>
+            <Link
+              key={item.name}
+              href={item.href}
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                isActive(item.href)
+                  ? "text-primary"
+                  : "text-muted-foreground"
+              }`}
+            >
+              {item.name}
             </Link>
           ))}
           <Link href="/contact">
@@ -66,17 +64,17 @@ export default function Header() {
         <div className="md:hidden border-t border-border bg-background">
           <div className="container space-y-1 py-4">
             {navigation.map((item) => (
-              <Link key={item.name} href={item.href}>
-                <a
-                  className={`block rounded-md px-3 py-2 text-base font-medium ${
-                    isActive(item.href)
-                      ? "bg-primary text-primary-foreground"
-                      : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                  }`}
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`block rounded-md px-3 py-2 text-base font-medium ${
+                  isActive(item.href)
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                }`}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {item.name}
               </Link>
             ))}
             <Link href="/contact">
